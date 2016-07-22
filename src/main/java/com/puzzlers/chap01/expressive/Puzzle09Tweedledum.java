@@ -17,7 +17,7 @@ package com.puzzlers.chap01.expressive;
  * so use compound assignment with cautious.
  *
  */
-public class Puzzler09Tweedledum {
+public class Puzzle09Tweedledum {
 
     public static void main(String[] args) {
 

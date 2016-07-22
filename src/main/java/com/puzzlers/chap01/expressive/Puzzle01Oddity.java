@@ -5,7 +5,7 @@ package com.puzzlers.chap01.expressive;
  *
  * Java reminder operator: (a / b) * b + (a % b) == a
  */
-public class Puzzler01Oddity {
+public class Puzzle01Oddity {
 
     public static void main(String[] args) {
         System.out.println(isOdd1(3));

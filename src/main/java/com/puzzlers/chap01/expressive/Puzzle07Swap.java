@@ -5,7 +5,7 @@ package com.puzzlers.chap01.expressive;
  *
  * In Java, operands of operators are evaluated from left to right
  */
-public class Puzzler07Swap {
+public class Puzzle07Swap {
 
     public static void main(String[] args) {
         int x = 1984;

@@ -10,7 +10,7 @@ package com.puzzlers.chap01.expressive;
  * Simple assignment operator is much less picky when its left-hand side is object reference type,
  * the right-hand side is allowed as long as it is assignment compatible with the variable on the left.
  */
-public class Puzzler10Tweedledee {
+public class Puzzle10Tweedledee {
 
     public static void main(String[] args) {
 

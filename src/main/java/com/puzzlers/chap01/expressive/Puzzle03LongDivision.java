@@ -3,7 +3,7 @@ package com.puzzlers.chap01.expressive;
 /**
  * When working with large numbers, watch out for overflow
  */
-public class Puzzler03LongDivision {
+public class Puzzle03LongDivision {
 
     public static void main(String[] args) {
         test();

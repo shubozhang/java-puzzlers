@@ -3,7 +3,7 @@ package com.puzzlers.chap01.expressive;
 /**
  * Always use a capital L in long literals, never lowercase l.
  */
-public class Puzzler04Elementary {
+public class Puzzle04Elementary {
 
     public static void main(String[] args) {
 

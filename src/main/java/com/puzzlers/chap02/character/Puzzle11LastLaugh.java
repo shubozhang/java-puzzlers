@@ -5,7 +5,7 @@ package com.puzzlers.chap02.character;
  * Otherwise, the type of each of the operands of the + operator must be a type that is convertible
  * (§5.1.8)to a primitive numeric type, or a compile-time error occurs.
  */
-public class Puzzler11LastLaugh {
+public class Puzzle11LastLaugh {
 
     public static void main(String[] args) {
 

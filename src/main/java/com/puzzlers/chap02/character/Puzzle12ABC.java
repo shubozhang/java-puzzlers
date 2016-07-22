@@ -8,7 +8,7 @@ package com.puzzlers.chap02.character;
 * object with no arguments; but if the result of invoking the toString
 * method is null, then the string "null" is used instead
 * */
-public class Puzzler12ABC {
+public class Puzzle12ABC {
 
     public static void main(String[] args) {
         String letters = "ABC";

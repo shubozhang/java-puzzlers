@@ -8,7 +8,7 @@ package com.puzzlers.chap01.expressive;
  *    int whose value is representable in type T, then the return type is T
  * 3. Otherwise, return type is the promoted type of 2nd and 3rd operands.
  */
-public class Puzzler08DoxEquis {
+public class Puzzle08DoxEquis {
 
     public static void main(String[] args) {
         char x = 'X';

@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 /*
 * Avoid float and double where exact answers are required; for monetary calculations, use int, long, or BigDecimal
 * */
-public class Puzzler02Change {
+public class Puzzle02Change {
 
     public static void main(String[] args) {
         System.out.println(2.0 - 1.9); // result is not exact 0.1

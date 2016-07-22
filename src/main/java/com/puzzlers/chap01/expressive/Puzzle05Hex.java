@@ -7,7 +7,7 @@ package com.puzzlers.chap01.expressive;
  *
  * Hex and octal literals are negative if their high-order bit is set
  */
-public class Puzzler05Hex {
+public class Puzzle05Hex {
 
     public static void main(String[] args) {
         System.out.println(Long.toHexString(0x100000000L + 0xcafebabe));
