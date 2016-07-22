@@ -2,10 +2,11 @@ package com.puzzlers.chap01.expressive;
 
 /**
  * Determine whether an integer is an odd number
- *
+ * <p>
  * Java reminder operator: (a / b) * b + (a % b) == a
  */
-public class Puzzle01Oddity {
+public class Puzzle01Odd {
+
 
     public static void main(String[] args) {
         System.out.println(isOdd1(3));
@@ -32,4 +33,5 @@ public class Puzzle01Oddity {
     private static boolean isOdd3(int i) {
         return (i & 1) != 0;
     }
+
 }
