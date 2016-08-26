@@ -1,8 +1,6 @@
 package com.puzzlers.chap03.loopypuzzlers;
 
-/**
- * Created by shubo.zhang on 7/27/2016.
- */
+
 public class Puzzle34DownForTheCount {
 
     public static void main(String[] args) {
