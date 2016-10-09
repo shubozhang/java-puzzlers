@@ -24,8 +24,10 @@ public class Puzzle27ShiftyI {
     // Endless loop: (-1 << 32) is equal to -1 rather than 0
     private static void test1() {
         int i = 0;
-        while (-1 << i != 0)
+        while (-1 << i != 0) {
             i++;
+
+        }
         System.out.println(i);
     }
 
