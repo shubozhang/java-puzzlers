@@ -31,7 +31,7 @@ public class TaxCalculator {
 
         BigDecimal income = ZERO;
         BigDecimal increment = new BigDecimal("1000");
-        BigDecimal end = new BigDecimal("250000");
+        BigDecimal end = new BigDecimal("100000");
 
         while(income.compareTo(end) < 0) {
             BigDecimal newTax = getTax(income,newRate);
