@@ -16,6 +16,6 @@ public class Puzzle50NotYourType {
 
         //System.out.println(new Puzzle50NotYourType() instanceof String);
 
-        Puzzle50NotYourType t3 = (Puzzle50NotYourType) new Object();
+        //Puzzle50NotYourType t3 = (Puzzle50NotYourType) new Object();
     }
 }
