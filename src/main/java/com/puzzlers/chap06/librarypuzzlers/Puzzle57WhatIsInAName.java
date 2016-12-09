@@ -4,7 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 1. You must override hashCode whenever you override equals
+ * 1. You must override hashCode whenever you override equals. The hashCode contract demands
+ *     that equal objects have equal hash codes
+ * 2. All HashSet implementations that we know of have an optimization in which each
+ *    entry stores the hash value of its element in addition to the element itself.
  */
 public class Puzzle57WhatIsInAName {
 
@@ -14,12 +17,12 @@ public class Puzzle57WhatIsInAName {
         this.first = first;
         this.last = last;
     }
-  /*  public boolean equals(Object o) {
+    public boolean equals(Object o) {
         if (!(o instanceof Puzzle57WhatIsInAName))
             return false;
         Puzzle57WhatIsInAName n = (Puzzle57WhatIsInAName)o;
         return n.first.equals(first) && n.last.equals(last);
-    }*/
+    }
     public static void main(String[] args) {
         Set<Puzzle57WhatIsInAName> s = new HashSet<Puzzle57WhatIsInAName>();
         s.add(new Puzzle57WhatIsInAName("Mickey", "Mouse"));
@@ -27,7 +30,9 @@ public class Puzzle57WhatIsInAName {
     }
 
 
-    @Override
+
+    // To fix the issue and return true
+/*    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -44,5 +49,5 @@ public class Puzzle57WhatIsInAName {
         int result = first.hashCode();
         result = 31 * result + last.hashCode();
         return result;
-    }
+    }*/
 }
