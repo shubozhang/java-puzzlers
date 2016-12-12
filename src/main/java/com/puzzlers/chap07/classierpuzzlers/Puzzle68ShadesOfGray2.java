@@ -17,12 +17,12 @@ public class Puzzle68ShadesOfGray2 {
 
 class Ex {
     static class Why {
-        static String z = "Black";
+        static java.lang.String z = "Black";
     }
 
     static See y = new See();
 }
 
 class See {
-    String z = "White";
+    java.lang.String z = "White";
 }
