@@ -30,6 +30,8 @@ public class Puzzle77TheLockMessMonster extends Thread{
     synchronized void keepWorking() {
         quittingTime = false;
     }
+
+
     public static void main(String[] args) throws InterruptedException {
         final Puzzle77TheLockMessMonster worker = new Puzzle77TheLockMessMonster();
         worker.start();
