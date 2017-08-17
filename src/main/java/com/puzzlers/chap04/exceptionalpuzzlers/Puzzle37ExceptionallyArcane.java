@@ -1,7 +1,5 @@
 package com.puzzlers.chap04.exceptionalpuzzlers;
 
-import java.io.IOException;
-
 /**
  * The first program illustrates the basic requirement that catch
  * clauses for checked exceptions are permitted only when the corresponding try

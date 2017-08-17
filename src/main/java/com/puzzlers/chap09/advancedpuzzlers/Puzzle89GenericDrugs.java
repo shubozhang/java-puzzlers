@@ -6,23 +6,24 @@ package com.puzzlers.chap09.advancedpuzzlers;
  */
 public class Puzzle89GenericDrugs<E> {
 
-    private Node<E> head = null;
-    private class Node<E> {
+    private MyNode head = null;
+
+    private class MyNode {
         E value;
-        Node<E> next;
-        // Node constructor links the node as a new head
-        Node(E value) {
+        MyNode next;
+        // MyNode constructor links the MyNode as a new head
+        MyNode(E value) {
             this.value = value;
             this.next = head;
             head = this;
         }
     }
     public void add(E e) {
-        new Node<E>(e);
-// Link node as new head
+        new MyNode(e);
+// Link MyNode as new head
     }
     public void dump() {
-        for (Node<E> n = head; n != null; n = n.next)
+        for (MyNode n = head; n != null; n = n.next)
             System.out.print(n.value + " ");
     }
     public static void main(String[] args) {

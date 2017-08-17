@@ -10,11 +10,11 @@ package com.puzzlers.chap09.advancedpuzzlers;
  * the second value is related to the first.
  *
  *
- * == operator is not reflexive, because the expression (Double.NaN == Double.NaN) evaluates to false
+ * 1. == operator is NOT reflexive, because the expression (Double.NaN == Double.NaN) evaluates to false
  *
- * == operator follows symmetry: (x == y) implies that (y == x) for all values x and y
+ * 2. == operator follows symmetry: (x == y) implies that (y == x) for all values x and y
  *
- * == operator is not transitive over the primitive values, because the == operator
+ * 3. == operator is NOT transitive over the primitive values, because the == operator
  * first performs binary numeric promotion [JLS 5.6.2]. This may result in a widening
  * primitive conversion on one of the two values
  */
@@ -24,6 +24,7 @@ public class Puzzle87StrainedRelations {
         long x = Long.MAX_VALUE;
         double y = (double) Long.MAX_VALUE;
         long z = Long.MAX_VALUE - 1;
+
         System.out.print ((x == y) + " "); // Imprecise!
         System.out.print ((y == z) + " "); // Imprecise!
         System.out.println(x == z); // Precise
