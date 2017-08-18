@@ -1,4 +1,4 @@
-package java.com.puzzlers.chap09.advancedpuzzlers;
+package com.puzzlers.chap09.advancedpuzzlers;
 
 import com.puzzlers.chap09.advancedpuzzlers.Puzzle88RawDeal;
 import org.junit.Test;
