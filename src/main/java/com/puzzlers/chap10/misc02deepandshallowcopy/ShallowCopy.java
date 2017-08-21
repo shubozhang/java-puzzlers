@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 1. Default version of shallowClone() method. It creates shallow copy of an object.
  *
- * 2. Shallow copy: only copy the field, but share the references
+ * 2. Shallow copy: only copy the primitive fields, but share the references
  *
  * Example:
  * class Student implements Cloneable {
