@@ -1,4 +1,4 @@
-package com.puzzlers.chap10.misc;
+package com.puzzlers.chap10.misc01multiinterface;
 
 /*
 
@@ -33,16 +33,14 @@ class DEF implement D, E, F { }
 new DEF().hi(); // prints F as it is closer in the heirarchy than A.
 * */
 
-import com.puzzlers.util.Misc02InterfaceA;
-import com.puzzlers.util.Misc02InterfaceB;
-import com.puzzlers.util.Misc02InterfaceC;
-import com.puzzlers.util.Misc02InterfaceD;
+import com.puzzlers.util.Misc01InterfaceC;
+import com.puzzlers.util.Misc01InterfaceD;
 
-public class Misc02MultiInterfaceCD implements Misc02InterfaceC, Misc02InterfaceD{
+public class MultiInterfaceCD implements Misc01InterfaceC, Misc01InterfaceD {
 
 
     public static void main(String[] args) {
 
-        new Misc02MultiInterfaceCD().print(); // output: A
+        new MultiInterfaceCD().print(); // output: A
     }
 }

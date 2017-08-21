@@ -1,4 +1,4 @@
-package com.puzzlers.chap10.misc;
+package com.puzzlers.chap10.misc01multiinterface;
 
 import com.puzzlers.util.Misc01InterfaceA;
 import com.puzzlers.util.Misc01InterfaceB;
@@ -8,7 +8,7 @@ import com.puzzlers.util.Misc01InterfaceB;
 *
 * Misc01InterfaceA, B have no default method.
 * */
-public class Misc01MultiInterface implements Misc01InterfaceA, Misc01InterfaceB{
+public class MultiInterface implements Misc01InterfaceA, Misc01InterfaceB{
 
     @Override
     public void present() {
@@ -16,6 +16,6 @@ public class Misc01MultiInterface implements Misc01InterfaceA, Misc01InterfaceB{
     }
 
     public static void main(String[] args) {
-        new Misc01MultiInterface().present();
+        new MultiInterface().present();
     }
 }
